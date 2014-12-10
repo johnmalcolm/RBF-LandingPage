@@ -237,3 +237,10 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+h2.welcome1,
+h3.welcome1  {
+	color: white;
+	}
+embed.vid {
+	padding: 20px;
+	}
