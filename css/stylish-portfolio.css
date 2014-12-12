@@ -244,3 +244,34 @@ h3.welcome1  {
 embed.vid {
 	padding: 20px;
 	}
+
+/* Custom Icons for the "Our Services" section */
+
+.fa-stack-1x{
+    font-size: 100px !important;
+    font-family: gym-fonts !important;
+}
+
+.fa-cloud::before{
+    content: "E" !important;
+}
+
+.fa-flask::before{
+   content: "W" !important;  
+}
+
+.fa-compass::before{
+    content: "M" !important;
+}
+
+.fa-shield::before{
+    vertical-align: top;
+    font-size: 75px !important;
+    content: "A" !important;  
+}
+
+
+
+
+
+

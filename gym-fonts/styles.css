@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "gym-fonts";
+  src:url("fonts/gym-fonts.eot");
+  src:url("fonts/gym-fonts.eot?#iefix") format("embedded-opentype"),
+    url("fonts/gym-fonts.woff") format("woff"),
+    url("fonts/gym-fonts.ttf") format("truetype"),
+    url("fonts/gym-fonts.svg#gym-fonts") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "gym-fonts" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="gym-icon-"]:before,
+[class*=" gym-icon-"]:before {
+  font-family: "gym-fonts" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gym-icon-abdominals:before {
+  content: "a";
+}
+.gym-icon-abs1:before {
+  content: "b";
+}
+.gym-icon-athlete4:before {
+  content: "c";
+}
+.gym-icon-gym8:before {
+  content: "d";
+}
+.gym-icon-man429:before {
+  content: "e";
+}
+.gym-icon-yoga9:before {
+  content: "f";
+}
+.gym-icon-working8:before {
+  content: "g";
+}
+.gym-icon-working7:before {
+  content: "h";
+}
+.gym-icon-physical1:before {
+  content: "i";
+}
+.gym-icon-working6:before {
+  content: "j";
+}
+.gym-icon-working5:before {
+  content: "k";
+}
+.gym-icon-working4:before {
+  content: "l";
+}
+.gym-icon-upper20:before {
+  content: "m";
+}
+.gym-icon-timer23:before {
+  content: "n";
+}
+.gym-icon-stretching4:before {
+  content: "o";
+}
+.gym-icon-skipping:before {
+  content: "p";
+}
+.gym-icon-silhouette48:before {
+  content: "q";
+}
+.gym-icon-silhouette18:before {
+  content: "r";
+}
+.gym-icon-running4:before {
+  content: "s";
+}
+.gym-icon-pulling:before {
+  content: "t";
+}
+.gym-icon-pressure2:before {
+  content: "u";
+}
+.gym-icon-person149:before {
+  content: "v";
+}
+.gym-icon-paralympic15:before {
+  content: "w";
+}
+.gym-icon-muscular8:before {
+  content: "x";
+}
+.gym-icon-man466:before {
+  content: "y";
+}
+.gym-icon-logotype:before {
+  content: "z";
+}
+.gym-icon-individual4:before {
+  content: "A";
+}
+.gym-icon-individual2:before {
+  content: "B";
+}
+.gym-icon-gym6:before {
+  content: "C";
+}
+.gym-icon-gym7:before {
+  content: "D";
+}
+.gym-icon-gymnast5:before {
+  content: "E";
+}
+.gym-icon-dumbbell:before {
+  content: "F";
+}
+.gym-icon-dumbbell18:before {
+  content: "G";
+}
+.gym-icon-gymnast16:before {
+  content: "H";
+}
+.gym-icon-gymnast21:before {
+  content: "I";
+}
+.gym-icon-dumbbell25:before {
+  content: "J";
+}
+.gym-icon-exercise:before {
+  content: "K";
+}
+.gym-icon-gymnast23:before {
+  content: "L";
+}
+.gym-icon-gymnast35:before {
+  content: "M";
+}
+.gym-icon-exercise1:before {
+  content: "N";
+}
+.gym-icon-exercise2:before {
+  content: "O";
+}
+.gym-icon-gymnast37:before {
+  content: "P";
+}
+.gym-icon-gymnast41:before {
+  content: "Q";
+}
+.gym-icon-flexing:before {
+  content: "R";
+}
+.gym-icon-gym1:before {
+  content: "S";
+}
+.gym-icon-gymnastics:before {
+  content: "T";
+}
+.gym-icon-hand95:before {
+  content: "U";
+}
+.gym-icon-gym2:before {
+  content: "V";
+}
+.gym-icon-gym5:before {
+  content: "W";
+}
+.gym-icon-healthy5:before {
+  content: "X";
+}
