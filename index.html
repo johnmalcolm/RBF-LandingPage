@@ -75,13 +75,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Join our mailing list to find out about offers, events and more!</h2>
-                    <p class="lead">Sign up for general emails, or choose to just receive updates about our Personal Training, Bootcamps or Kids Classes.</p><br>
-                
+                    <p class="lead">Sign up for general emails, or choose to just receive updates about our Personal Training, Bootcamps or Kids Classes.</p>
                    <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                       Sign Up
                     </button>
-
                     <!-- Modal -->
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                       <div class="modal-dialog">
@@ -90,9 +88,8 @@
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                             <h4 class="modal-title" id="myModalLabel">Subscribe to our mailing list</h4>
                           </div>
-                          <div class="modal-body">
+                          <div class="modal-body" style="text-align:left;">
                             <!-- Begin MailChimp Signup Form -->
-                            <div id="mc_embed_signup">
                             <form role="form" action="//ronanbilbowfitness.us9.list-manage.com/subscribe/post?u=e0a2932058c547e05d605bc07&amp;id=d9d9005b79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <!--<div id="mc_embed_signup_scroll">-->
                             <div class="form-group">
@@ -107,39 +104,50 @@
                                 <label for="mce-LNAME">Last Name </label>
                                 <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="enter surname">
                             </div>
-                            <div class="mc-field-group input-group">
-                                <strong>I am interested in: </strong>
-                                <ul><li><input type="checkbox" value="1" name="group[15345][1]" id="mce-group[15345]-15345-0"><label for="mce-group[15345]-15345-0">Gym</label></li>
-                            <li><input type="checkbox" value="2" name="group[15345][2]" id="mce-group[15345]-15345-1"><label for="mce-group[15345]-15345-1">Bootcamp</label></li>
-                            <li><input type="checkbox" value="4" name="group[15345][4]" id="mce-group[15345]-15345-2"><label for="mce-group[15345]-15345-2">Smaller Training Classes</label></li>
-                            <li><input type="checkbox" value="8" name="group[15345][8]" id="mce-group[15345]-15345-3"><label for="mce-group[15345]-15345-3">Kids Classes</label></li>
-                            </ul>
+                            <div>
+                                <h5>I am interested in: </h5>
+                                <div class="checkboxes"> 
+
+                                    <input type="checkbox" value="1" name="group[15345][1]" id="mce-group[15345]-15345-0">
+                                    <label for="mce-group[15345]-15345-0"> Gym</label>
+                                </div>
+
+                                <div class="checkboxes"> 
+                                    <input type="checkbox" value="2" name="group[15345][2]" id="mce-group[15345]-15345-1">
+                                    <label for="mce-group[15345]-15345-1"> Bootcamp</label>
+                                </div>
+
+                                <div class="checkboxes"> 
+                                    <input type="checkbox" value="4" name="group[15345][4]" id="mce-group[15345]-15345-2">
+                                    <label for="mce-group[15345]-15345-2"> Smaller Training Classes</label>
+                                </div>
+
+                                <div class="checkboxes"> 
+                                    <input type="checkbox" value="8" name="group[15345][8]" id="mce-group[15345]-15345-3">
+                                    <label for="mce-group[15345]-15345-3"> Kids Classes</label>
+                             </div>
+
                             </div>
                                 <div id="mce-responses" class="clear">
                                     <div class="response" id="mce-error-response" style="display:none"></div>
                                     <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                </div><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_e0a2932058c547e05d605bc07_d9d9005b79" tabindex="-1" value=""></div>
                                 <div class="clear">
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                               <!-- </div>-->
-                            </form>
-                            </div>
 
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+                            </div>
+                            </form>
                             <!--End mc_embed_signup-->
                           </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+
                           </div>
                         </div>
                       </div>
                     </div>
-
-
                   <!-- END OF MODAL -->
-                
-
                 </div>
             </div>
             <!-- /.row -->
@@ -166,7 +174,7 @@
                                     <strong>Personal Training</strong>
                                 </h4>
                                 <p>1-1 Consultations. Discounts available for buddy training <br/>( 2 person groups)</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -179,7 +187,7 @@
                                     <strong>Gym</strong>
                                 </h4>
                                 <p>Fully coached and supervised gym floor at all times with trainers on hand for any advice.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -192,7 +200,7 @@
                                     <strong>Bootcamp</strong>
                                 </h4>
                                 <p>Suitable for all levels. Full Goal specific nutritional framework provided.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -205,7 +213,7 @@
                                     <strong>Kids Classes</strong>
                                 </h4>
                                 <p>Kids Training program called FUNctional Kidz <br/>- Coming Soon</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -278,7 +286,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Find out about offers and updates from Ronan Bilow Fitness.</h3>
-                    <a href="#about" class="btn btn-lg btn-light">Email Me</a>
+                    <a href="#" class="btn btn-lg btn-light" data-toggle="modal" data-target="#myModal">Email Me</a>
                 </div>
             </div>
         </div>
@@ -319,6 +327,7 @@
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Ronan Bilbow Fitness
 					2014</p>
+                    <p class="text-muted">Website by <a href="http://johnmalcolmdesign.com">John Malcolm Design</a></p>
                 </div>
             </div>
         </div>
